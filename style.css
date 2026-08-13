@@ -621,84 +621,68 @@ RESPONSIVE
 
 @media(max-width:992px){
 
-header{
+    header{
+        flex-direction:column;
+        gap:20px;
+        position:relative;
+    }
 
-    flex-direction:column;
-    gap:20px;
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
 
-}
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding-top:80px;
+    }
 
-nav ul{
+    .hero-text p{
+        text-align:center;
+    }
 
-    flex-wrap:wrap;
-    justify-content:center;
+    .buttons{
+        justify-content:center;
+    }
 
-}
+    .social{
+        justify-content:center;
+    }
 
-.hero{
+    .hero-image img{
+        width:300px;
+        height:300px;
+    }
 
-    flex-direction:column-reverse;
-    text-align:center;
-    padding-top:180px;
-
-}
-
-.hero-text p{
-
-    text-align:center;
-
-}
-
-.buttons{
-
-    justify-content:center;
-
-}
-
-.social{
-
-    justify-content:center;
-
-}
-
-.hero-image img{
-
-    width:300px;
-    height:300px;
+    .about{
+        flex-direction:column;
+    }
 
 }
-
-.about{
-
-    flex-direction:column;
-
-}
-
-}
-
 @media(max-width:768px){
 
-.hero-text h1{
+    .hero{
+        padding-top:60px;
+        padding-left:20px;
+        padding-right:20px;
+    }
 
-    font-size:42px;
+    .hero-text h1{
+        font-size:36px;
+    }
 
-}
+    .hero-text h2{
+        font-size:20px;
+    }
 
-.hero-text h2{
-
-    font-size:22px;
-
-}
-
-.projects h2,
-.education h2,
-.contact h2,
-.about-box h2,
-.skills-box h2{
-
-    font-size:30px;
-
-}
+    .projects h2,
+    .education h2,
+    .contact h2,
+    .about-box h2,
+    .skills-box h2{
+        font-size:30px;
+    }
 
 }
 
